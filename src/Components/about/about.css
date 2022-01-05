@@ -6,7 +6,7 @@
 
 .about-left{
   flex: 1;
-  background-image: url('C:\Users\AndrewP\Dropbox\Code\Portfolio Website\portfolioapp\src\img\0606201317b.png');
+  background-image: url('../../img/0606201317b.png');
   background-size: contain;
   background-repeat: no-repeat;  
   font-weight: bold;
