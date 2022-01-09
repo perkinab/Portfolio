@@ -1,29 +1,24 @@
-.about{
-    background-color: lightblue;
-    display: flex;
-     
+.about {
+  background-color: lightblue;
+  display: flex;
 }
 
-.about-left{
+.about-left {
   flex: 1;
   background-image: url('../../img/0606201317b.png');
   background-size: contain;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   font-weight: bold;
   font-size: x-large;
   background-position: center;
 }
 
-.about-right{
+.about-right {
   flex: 1;
   font-size: 30px;
   text-align: center;
 }
 
-
-.i{
+.i {
   font-size: 100px;
 }
-
-
-
