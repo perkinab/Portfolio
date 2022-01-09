@@ -1,13 +1,19 @@
-import './navbar.css';
+// import './navbar.css';
 import React from 'react';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 
-export default function Navbar() {
+export default function Navigation() {
   return (
-    <div className="navbar">
-      <a href="#about">Andrew Perkins</a>
-      <a href="#projects">Projects</a>
-      <a href="#resume">Resume</a>
-      <a href="#contact">Contact Me</a>
-    </div>
+    <Navbar bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">Andrew Perkins</Navbar.Brand>
+        <Nav>
+          <Nav.Link href="#about">About</Nav.Link>
+          <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="#resume">Resume</Nav.Link>
+          <Nav.Link href="#contact">Contact Me</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navbar from './Components/navbar/Navbar';
+import Navigation from './Components/navbar/Navbar';
 import About from './Components/about/About';
 import Contact from './Components/contact/Contact';
 import Projects from './Components/projects/Projects';
@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <Navbar />
+      <Navigation />
       <div className="sections">
         <About />
         <Projects />
